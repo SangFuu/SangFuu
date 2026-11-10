@@ -41,6 +41,8 @@ I am a third-year Computer Science student building my skills through university
 
 ## Selected Work
 
+<img src="./assets/selected-projects.svg" alt="Four project plates representing Tower Defense, the Logo interpreter, the local security checker and the real-estate database" width="100%" />
+
 ### [Tower Defense](https://github.com/SangFuu/tower-defense)
 
 **C · SDL2 · Pair project with SAID PAUL**
