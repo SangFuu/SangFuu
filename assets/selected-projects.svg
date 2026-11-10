@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="470" viewBox="0 0 1100 470" role="img" aria-labelledby="title desc">
+<title id="title">Selected projects</title>
+<desc id="desc">Four restrained project plates representing Tower Defense, a Logo interpreter, a local security checker and a real-estate database.</desc>
+<style>
+  .bg{fill:#0f172a}.panel{fill:#111c2f;stroke:#334155;stroke-width:2}.accent{fill:#ffa500}.line{fill:none;stroke:#ffa500;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.soft{fill:none;stroke:#64748b;stroke-width:2}.label{font:700 17px 'JetBrains Mono',ui-monospace,monospace;fill:#f8fafc;letter-spacing:1px}.meta{font:13px 'JetBrains Mono',ui-monospace,monospace;fill:#94a3b8}.num{font:700 12px 'JetBrains Mono',ui-monospace,monospace;fill:#ffa500}
+</style>
+<rect class="bg" width="1100" height="470" rx="18"/>
+<path d="M34 52H1066" stroke="#334155" stroke-width="2"/>
+<text x="34" y="36" class="meta">SELECTED WORK / REAL PROJECTS</text>
+
+<g transform="translate(34 78)">
+  <rect class="panel" width="500" height="160" rx="10"/>
+  <text x="22" y="30" class="num">01</text><text x="62" y="30" class="label">TOWER DEFENSE</text>
+  <text x="62" y="53" class="meta">C · SDL2</text>
+  <path class="soft" d="M30 130H112V86H188V128H274V78H360V124H466"/>
+  <circle class="accent" cx="112" cy="86" r="7"/><circle class="accent" cx="274" cy="78" r="7"/>
+  <path class="line" d="M42 116H98V72H174V114H260V64H346V110H452"/>
+  <path class="line" d="M439 101l13 9-13 9"/>
+</g>
+
+<g transform="translate(566 78)">
+  <rect class="panel" width="500" height="160" rx="10"/>
+  <text x="22" y="30" class="num">02</text><text x="62" y="30" class="label">LOGO INTERPRETER</text>
+  <text x="62" y="53" class="meta">OCaml · lexer → parser → evaluator</text>
+  <path class="soft" d="M36 126C112 126 112 75 188 75S264 126 340 126 416 75 464 75"/>
+  <path class="line" d="M36 112C112 112 112 61 188 61S264 112 340 112 416 61 452 61"/>
+  <path class="line" d="M438 52l14 9-14 9"/>
+  <circle class="accent" cx="36" cy="112" r="6"/>
+</g>
+
+<g transform="translate(34 266)">
+  <rect class="panel" width="500" height="160" rx="10"/>
+  <text x="22" y="30" class="num">03</text><text x="62" y="30" class="label">LOCAL SECURITY CHECKER</text>
+  <text x="62" y="53" class="meta">Python · local CLI · unit tests</text>
+  <rect x="28" y="72" width="444" height="62" rx="6" fill="#0b1220" stroke="#334155"/>
+  <text x="46" y="99" class="meta">$ security-check ./form.html</text>
+  <circle class="accent" cx="53" cy="118" r="5"/>
+  <text x="68" y="123" class="meta">checks completed locally</text>
+  <path class="line" d="M424 111l10 10 20-24"/>
+</g>
+
+<g transform="translate(566 266)">
+  <rect class="panel" width="500" height="160" rx="10"/>
+  <text x="22" y="30" class="num">04</text><text x="62" y="30" class="label">REAL ESTATE DATABASE</text>
+  <text x="62" y="53" class="meta">SQL · HSQLDB · LibreOffice Base</text>
+  <g transform="translate(38 72)">
+    <rect class="soft" width="116" height="52" rx="5"/><rect class="soft" x="164" width="116" height="52" rx="5"/><rect class="soft" x="328" width="96" height="52" rx="5"/>
+    <text x="16" y="31" class="meta">PROPERTY</text><text x="183" y="31" class="meta">CLIENT</text><text x="347" y="31" class="meta">VISIT</text>
+    <path class="line" d="M116 26h48M280 26h48"/>
+    <circle class="accent" cx="140" cy="26" r="4"/><circle class="accent" cx="304" cy="26" r="4"/>
+  </g>
+</g>
+</svg>
