@@ -2,12 +2,21 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:334155&height=190&section=header&text=Marwane%20EL%20FADILY&fontSize=44&fontColor=FFA500&fontAlignY=38&desc=Third-Year%20Computer%20Science%20Student%20%7C%20SangFuu&descAlignY=62&descSize=18&animation=fadeIn" alt="Marwane EL FADILY — Third-Year Computer Science Student" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=3000&pause=1500&color=FFA500&center=true&vCenter=true&width=700&height=65&lines=C+%7C+Python+%7C+OCaml+%7C+Java;Algorithms+and+Data+Structures;Learn%2C+Understand%2C+Build" alt="C, Python, OCaml, Java — Algorithms and Data Structures" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=19&duration=3000&pause=1500&color=FFA500&center=true&vCenter=true&width=700&height=65&lines=C+%7C+C%2B%2B+%7C+C%23+%7C+Java+%7C+OCaml+%7C+Python;HTML+%7C+CSS+%7C+XML+%7C+SQL+%7C+PHP;Symfony+%7C+Algorithms+and+Data+Structures;Learn%2C+Understand%2C+Build" alt="C, C++, C#, Java, OCaml, Python, HTML, CSS, XML, SQL, PHP and Symfony" />
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![OCaml](https://img.shields.io/badge/OCaml-EC6813?style=for-the-badge&logo=ocaml&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-E76F00?style=for-the-badge)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge)
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white)
+![XML](https://img.shields.io/badge/XML-005FAD?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
 
 </div>
 
@@ -19,7 +28,9 @@ $ cat about.txt
 Name       : Marwane EL FADILY
 Username   : SangFuu
 Education  : Third-year Computer Science student
-Languages  : C, Python, OCaml, Java
+Languages  : C, Java, OCaml, C#, C++, Python
+Web & data : HTML, CSS, XML, SQL, PHP
+Framework  : Symfony
 Interests  : Algorithms, data structures,
              software development
 ```
