@@ -41,37 +41,12 @@ I am a third-year Computer Science student building my skills through university
 
 ## Selected Work
 
-### [Tower Defense](https://github.com/SangFuu/tower-defense)
+<img src="./assets/project-field-notes.svg" alt="Field notes assembled from four real project artefacts: Tower Defense, Logo Interpreter, Security Checker and Real Estate Database" width="100%" />
 
-A C and SDL2 project built with SAID PAUL. The simulation manages a fixed path, unit movement, attack range, combat, and versioned text or binary saves.
-
-<img src="https://raw.githubusercontent.com/SangFuu/tower-defense/main/docs/apercu.png" alt="Tower Defense running with its SDL2 grid, path, towers and enemies" width="100%" />
-
-`C` · `SDL2` · `CMake` · `CTest`
-
-### [Logo Interpreter](https://github.com/SangFuu/logo-interpreter)
-
-An OCaml interpreter built with Adnane Serrai. It turns Logo source code into tokens and syntax, evaluates expressions and variables, then drives a terminal turtle.
-
-```logo
-Def cotes 10 ;
-Si (:cotes > 2)
-Alors Repete :cotes [Avance 60; Droite (360 / :cotes)]
-Sinon Avance 60 FinSi .
-```
-
-`OCaml` · `ocamllex` · `ocamlyacc` · `GNU Make`
-
-### [Local Security Checker](https://github.com/SangFuu/open-source-security-checker)
-
-A small Python CLI for checking password rules and common HTML form issues locally.
-
-```console
-python -m src.security_checker password "A password to test"
-python -m unittest discover -s tests -v
-```
-
-`Python` · `HTMLParser` · `unittest`
+[**Tower Defense**](https://github.com/SangFuu/tower-defense) — C/SDL2 simulation, game state and saves  
+[**Logo Interpreter**](https://github.com/SangFuu/logo-interpreter) — OCaml lexer, parser, evaluator and terminal turtle  
+[**Local Security Checker**](https://github.com/SangFuu/open-source-security-checker) — local Python checks for passwords and HTML forms  
+[**Real Estate Database**](https://github.com/SangFuu/real-estate-database) — relational model, SQL queries and LibreOffice Base forms
 
 ## Tools
 
