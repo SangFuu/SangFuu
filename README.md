@@ -39,15 +39,15 @@ Interests  : Algorithms, data structures,
 
 I am a third-year Computer Science student building my skills through university and personal projects. I enjoy understanding how algorithms work, choosing suitable data structures, and turning ideas into working programs.
 
-## Projects
+## Selected Systems
 
-### 🎲 Board Game Score Assistant
+<img width="100%" src="./assets/project-systems-map.svg" alt="Processing maps for my Python security checker, OCaml Logo interpreter and C SDL2 tower defense" />
 
-A team project in **C**, using an **SQLite** database to track scores and manage rules for several board games.
+[**Local Security Checker**](https://github.com/SangFuu/open-source-security-checker) · Python CLI that checks passwords and HTML forms locally  
+[**Logo Interpreter**](https://github.com/SangFuu/logo-interpreter) · OCaml lexer, parser, AST, environment and terminal turtle  
+[**Tower Defense**](https://github.com/SangFuu/tower-defense) · C/SDL2 simulation with pathfinding, combat, saves and tests
 
-### 🌳 Binary Search Trees
-
-An **OCaml** project exploring binary search trees, tree rebuilding, and scapegoat trees.
+<sub>The map follows the repositories' real code paths. Human-drawn figure by Pablo Stanley / Open Doodles (CC0). [Sources and licence notes](./assets/PROJECT-SYSTEMS-SOURCES.md).</sub>
 
 ## Tools
 
