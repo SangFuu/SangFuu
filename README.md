@@ -41,7 +41,7 @@ I am a third-year Computer Science student building my skills through university
 
 ## Selected Systems
 
-<img width="100%" src="./assets/project-systems-map.svg" alt="Processing maps for my Python security checker, OCaml Logo interpreter and C SDL2 tower defense" />
+<img width="100%" src="./assets/project-systems-map-v2.svg" alt="Processing maps for my Python security checker, OCaml Logo interpreter and C SDL2 tower defense" />
 
 [**Local Security Checker**](https://github.com/SangFuu/open-source-security-checker) · Python CLI that checks passwords and HTML forms locally  
 [**Logo Interpreter**](https://github.com/SangFuu/logo-interpreter) · OCaml lexer, parser, AST, environment and terminal turtle  
