@@ -39,15 +39,39 @@ Interests  : Algorithms, data structures,
 
 I am a third-year Computer Science student building my skills through university and personal projects. I enjoy understanding how algorithms work, choosing suitable data structures, and turning ideas into working programs.
 
-## Selected Systems
+## Selected Work
 
-<img width="100%" src="./assets/project-systems-map-v2.svg" alt="Processing maps for my Python security checker, OCaml Logo interpreter and C SDL2 tower defense" />
+### [Tower Defense](https://github.com/SangFuu/tower-defense)
 
-[**Local Security Checker**](https://github.com/SangFuu/open-source-security-checker) · Python CLI that checks passwords and HTML forms locally  
-[**Logo Interpreter**](https://github.com/SangFuu/logo-interpreter) · OCaml lexer, parser, AST, environment and terminal turtle  
-[**Tower Defense**](https://github.com/SangFuu/tower-defense) · C/SDL2 simulation with pathfinding, combat, saves and tests
+A C and SDL2 project built with SAID PAUL. The simulation manages a fixed path, unit movement, attack range, combat, and versioned text or binary saves.
 
-<sub>Every element follows the repositories' real code paths; no stock or generated illustration. [Visual sources and technical notes](./assets/PROJECT-SYSTEMS-SOURCES.md).</sub>
+<img src="https://raw.githubusercontent.com/SangFuu/tower-defense/main/docs/apercu.png" alt="Tower Defense running with its SDL2 grid, path, towers and enemies" width="100%" />
+
+`C` · `SDL2` · `CMake` · `CTest`
+
+### [Logo Interpreter](https://github.com/SangFuu/logo-interpreter)
+
+An OCaml interpreter built with Adnane Serrai. It turns Logo source code into tokens and syntax, evaluates expressions and variables, then drives a terminal turtle.
+
+```logo
+Def cotes 10 ;
+Si (:cotes > 2)
+Alors Repete :cotes [Avance 60; Droite (360 / :cotes)]
+Sinon Avance 60 FinSi .
+```
+
+`OCaml` · `ocamllex` · `ocamlyacc` · `GNU Make`
+
+### [Local Security Checker](https://github.com/SangFuu/open-source-security-checker)
+
+A small Python CLI for checking password rules and common HTML form issues locally.
+
+```console
+python -m src.security_checker password "A password to test"
+python -m unittest discover -s tests -v
+```
+
+`Python` · `HTMLParser` · `unittest`
 
 ## Tools
 
