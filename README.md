@@ -41,31 +41,43 @@ I am a third-year Computer Science student building my skills through university
 
 ## Selected Work
 
-<img src="./assets/selected-projects.svg" alt="Four project plates representing Tower Defense, the Logo interpreter, the local security checker and the real-estate database" width="100%" />
+<p align="center">
+  <a href="https://github.com/SangFuu/tower-defense">
+    <img src="https://raw.githubusercontent.com/SangFuu/tower-defense/main/docs/apercu.png" width="820" alt="Tower Defense running with SDL2" />
+  </a>
+  <br />
+  <sub>Tower Defense running in SDL2 — board, path, units and combat visible in the actual build.</sub>
+</p>
 
 ### [Tower Defense](https://github.com/SangFuu/tower-defense)
 
-**C · SDL2 · Pair project with SAID PAUL**
-
+**C · SDL2 · with SAID PAUL**  
 Board and enemy-path simulation, unit movement and combat, save formats, keyboard controls and automated tests.
+
+> `P / Space` pause · `S / C` binary save/load · `D / V` text save/load
+
+---
 
 ### [Logo Interpreter](https://github.com/SangFuu/logo-interpreter)
 
-**OCaml · Pair project with Adnane Serrai**
+**OCaml · with Adnane Serrai**  
+Lexer, parser and abstract syntax tree for a subset of Logo, followed by variables, conditions, loops and terminal turtle commands.
 
-Lexer, parser and abstract syntax tree for a subset of Logo, followed by evaluation of variables, conditions, loops and turtle commands in the terminal.
+`source.logo` → `lexer` → `parser` → `AST` → `evaluator` → `terminal turtle`
 
 ### [Local Security Checker](https://github.com/SangFuu/open-source-security-checker)
 
-**Python · Personal project**
-
+**Python · personal project**  
 Local command-line checks for password rules and common HTML form issues, supported by unit tests.
+
+`python -m src.security_checker form examples/login.html`
 
 ### [Real Estate Database](https://github.com/SangFuu/real-estate-database)
 
-**SQL · HSQLDB · LibreOffice Base · Pair project with Adnane Serrai**
+**SQL · HSQLDB · LibreOffice Base · with Adnane Serrai**  
+Relational schema, table relationships, queries, integrity checks and data-entry forms using fictional data.
 
-Relational schema, table relationships, queries, integrity checks and data-entry forms for a fictional real-estate agency.
+`schema.sql` · `requetes.sql` · `agence-immobiliere.odb`
 
 ## Tools
 
