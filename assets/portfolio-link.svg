@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="139" height="28" viewBox="0 0 139 28" role="img" aria-label="Portfolio">
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="28" viewBox="0 0 132 28" role="img" aria-label="Portfolio">
 <title>Portfolio</title>
-<rect width="139" height="28" fill="#163f72"/>
-<g transform="translate(9 5) scale(.0275) translate(-150 -150)" fill="#94c9ff">
+<rect width="132" height="28" fill="#163f72"/>
+<g transform="translate(12 7) scale(.0214) translate(-153 -159)" fill="#ffffff">
 <path fill-rule="evenodd" d="M437 160 Q446 155 448 165 Q397 222 365 315 Q480 273 597 315 Q566 222 515 165 Q512 155 523 160 Q651 230 693 373 Q815 482 807 638 Q805 648 797 640 Q767 549 700 488 Q680 626 578 707 Q667 739 759 714 Q769 710 769 720 Q683 780 585 778 Q534 777 480 760 Q427 777 375 778 Q279 780 197 723 Q188 717 198 713 Q291 739 383 707 Q281 626 262 487 Q194 548 166 639 Q161 649 154 640 Q143 485 270 372 Q309 232 437 160 Z M356 429 Q370 561 480 655 Q590 561 606 429 Q480 378 356 429 Z"/>
 </g>
-<text x="38" y="18" fill="#f3f8ff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="10" font-weight="bold" letter-spacing="1.4">PORTFOLIO</text>
+<text x="35" y="18" fill="#ffffff" font-family="Verdana,DejaVu Sans,sans-serif" font-size="10" font-weight="700" letter-spacing="1" textLength="85" lengthAdjust="spacingAndGlyphs">PORTFOLIO</text>
 </svg>
