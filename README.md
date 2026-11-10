@@ -50,7 +50,5 @@ Projet en **OCaml** consacré aux arbres binaires de recherche, à leur reconstr
 
 <img width="100%" src="https://streak-stats.demolab.com/?user=SangFuu&theme=dark&hide_border=true&background=0f172a&stroke=FFA500&ring=FFA500&fire=ff6b6b&currStreakLabel=34d399&sideLabels=94a3b8&dates=94a3b8" alt="Contributions et séries de jours sur GitHub" />
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=SangFuu&show_icons=true&hide_rank=true&bg_color=0f172a&title_color=FFA500&text_color=94a3b8&icon_color=ff6b6b&border_color=334155" alt="Statistiques GitHub de SangFuu" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SangFuu&layout=compact&bg_color=0f172a&title_color=FFA500&text_color=94a3b8&border_color=334155" alt="Langages les plus présents dans mes dépôts GitHub" />
 
 </div>
