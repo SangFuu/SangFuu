@@ -69,6 +69,6 @@ An **OCaml** project exploring binary search trees, tree rebuilding, and scapego
 
 ## Links
 
-<a href="https://sangfuu.github.io/"><img src="./assets/portfolio-badge.png" height="28" alt="Portfolio" /></a>
+<a href="https://sangfuu.github.io/"><img src="./assets/portfolio-badge-blue.png" height="28" alt="Portfolio" /></a>
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marwane-el-fadily-8449a1333/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:marwaneelfadily@gmail.com)
