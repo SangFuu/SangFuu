@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Three systems, three ways of thinking</title>
+  <desc id="desc">A hand-drawn project map showing the real processing paths of a Python security checker, an OCaml Logo interpreter, and a C SDL2 tower defense.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#64748B"/></marker>
+    <style>
+      .sans{font-family:Inter,Segoe UI,Arial,sans-serif}.mono{font-family:JetBrains Mono,Consolas,monospace}
+      .title{fill:#F8FAFC;font-size:35px;font-weight:800;letter-spacing:-.7px}.sub{fill:#94A3B8;font-size:15px}
+      .index{fill:#FFA500;font-size:14px;font-weight:800;letter-spacing:2px}.name{fill:#F8FAFC;font-size:21px;font-weight:750}.tech{fill:#94A3B8;font-size:12px;font-weight:700;letter-spacing:1.2px}
+      .node{fill:#162033;stroke:#3B4A61;stroke-width:1.5}.nodeText{fill:#E2E8F0;font-size:13px;font-weight:650}.note{fill:#94A3B8;font-size:11px}.flow{fill:none;stroke:#64748B;stroke-width:2;stroke-linecap:round;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="650" rx="24" fill="#0F172A"/>
+  <path d="M0 170 C210 144 365 193 560 166 S930 145 1200 176" fill="none" stroke="#1E293B" stroke-width="38" opacity=".75"/>
+  <path d="M41 123 C184 133 294 112 415 127" fill="none" stroke="#FFA500" stroke-width="3" stroke-linecap="round"/>
+  <text x="42" y="62" class="sans title">Three systems, three ways of thinking.</text>
+  <text x="43" y="94" class="mono sub">INPUT  →  STATE  →  OUTPUT   /   mapped from the actual repositories</text>
+
+  <!-- Three project-specific marks: terminal audit, Logo turtle path, Tower Defense grid. -->
+  <g transform="translate(906,24)">
+    <rect width="86" height="64" rx="9" fill="#111C2E" stroke="#64748B" stroke-width="2"/>
+    <circle cx="13" cy="12" r="3" fill="#F87171"/><circle cx="23" cy="12" r="3" fill="#FBBF24"/><circle cx="33" cy="12" r="3" fill="#34D399"/>
+    <text x="12" y="37" class="mono" fill="#E2E8F0" font-size="10">$ audit form</text><text x="12" y="52" class="mono" fill="#34D399" font-size="9">2 findings</text>
+  </g>
+  <g transform="translate(1012,22)">
+    <path d="M8 58 L28 18 L54 51 L77 13" fill="none" stroke="#FFA500" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M70 11 L84 7 L78 21 Z" fill="#FFA500"/>
+    <circle cx="8" cy="58" r="4" fill="#E2E8F0"/><text x="4" y="76" class="mono" fill="#94A3B8" font-size="9">Logo path</text>
+  </g>
+  <g transform="translate(1111,19)">
+    <rect width="67" height="67" rx="8" fill="#111C2E" stroke="#64748B" stroke-width="2"/>
+    <path d="M22 0V67M44 0V67M0 22H67M0 44H67" stroke="#334155"/>
+    <path d="M4 55 C18 55 18 33 33 33 S48 11 63 11" fill="none" stroke="#FFA500" stroke-width="4" stroke-linecap="round"/>
+    <rect x="6" y="6" width="11" height="11" rx="2" fill="#34D399"/><circle cx="55" cy="55" r="7" fill="#F87171"/>
+  </g>
+
+  <g transform="translate(35,190)">
+    <rect width="355" height="414" rx="17" fill="#111C2E" stroke="#2F4058"/>
+    <text x="24" y="38" class="mono index">01 / INSPECT</text>
+    <text x="24" y="73" class="sans name">Local Security Checker</text>
+    <text x="24" y="96" class="mono tech">PYTHON · CLI · UNIT TESTS</text>
+    <rect x="24" y="127" width="307" height="56" rx="10" class="node"/><text x="42" y="151" class="mono nodeText">password  |  HTML form</text><text x="42" y="169" class="sans note">local input — nothing is uploaded</text>
+    <path d="M178 184 C167 197 188 205 177 219" class="flow"/>
+    <rect x="24" y="221" width="307" height="68" rx="10" class="node"/><text x="42" y="247" class="mono nodeText">rules + HTMLParser</text><text x="42" y="267" class="sans note">weak patterns · method · action URL</text>
+    <path d="M178 290 C190 302 165 312 178 326" class="flow"/>
+    <rect x="24" y="329" width="307" height="56" rx="10" class="node"/><circle cx="46" cy="357" r="6" fill="#34D399"/><text x="62" y="361" class="mono nodeText">clear findings in the terminal</text>
+  </g>
+
+  <g transform="translate(423,190)">
+    <rect width="355" height="414" rx="17" fill="#111C2E" stroke="#2F4058"/>
+    <text x="24" y="38" class="mono index">02 / INTERPRET</text>
+    <text x="24" y="73" class="sans name">Logo Interpreter</text>
+    <text x="24" y="96" class="mono tech">OCAML · LEXER · PARSER · REPL</text>
+    <rect x="24" y="127" width="307" height="48" rx="10" class="node"/><text x="42" y="157" class="mono nodeText">Logo commands</text>
+    <path d="M178 176 C163 188 191 196 177 207" class="flow"/>
+    <rect x="24" y="209" width="142" height="58" rx="10" class="node"/><text x="45" y="234" class="mono nodeText">lexer</text><text x="45" y="251" class="sans note">tokens</text>
+    <rect x="189" y="209" width="142" height="58" rx="10" class="node"/><text x="210" y="234" class="mono nodeText">parser</text><text x="210" y="251" class="sans note">syntax</text>
+    <path d="M95 268 C112 292 154 288 174 309 M260 268 C243 292 202 288 180 309" class="flow"/>
+    <rect x="82" y="311" width="191" height="42" rx="10" class="node"/><text x="113" y="338" class="mono nodeText">AST + environment</text>
+    <path d="M178 354 C164 367 190 373 177 385" class="flow"/>
+    <text x="92" y="402" class="mono nodeText">terminal turtle + errors</text>
+  </g>
+
+  <g transform="translate(811,190)">
+    <rect width="355" height="414" rx="17" fill="#111C2E" stroke="#2F4058"/>
+    <text x="24" y="38" class="mono index">03 / SIMULATE</text>
+    <text x="24" y="73" class="sans name">Tower Defense</text>
+    <text x="24" y="96" class="mono tech">C · SDL2 · CMAKE · CTEST</text>
+    <rect x="24" y="127" width="307" height="48" rx="10" class="node"/><text x="42" y="157" class="mono nodeText">events + game timer</text>
+    <path d="M178 176 C190 189 165 196 178 209" class="flow"/>
+    <rect x="24" y="211" width="307" height="78" rx="10" class="node"/><text x="42" y="237" class="mono nodeText">simulation step</text><text x="42" y="258" class="sans note">path · movement · range · combat</text><text x="42" y="276" class="sans note">linked lists + 2D board</text>
+    <path d="M178 290 C165 302 190 311 177 323" class="flow"/>
+    <rect x="24" y="325" width="142" height="60" rx="10" class="node"/><text x="46" y="351" class="mono nodeText">SDL2 frame</text><text x="46" y="369" class="sans note">render</text>
+    <rect x="189" y="325" width="142" height="60" rx="10" class="node"/><text x="211" y="351" class="mono nodeText">save state</text><text x="211" y="369" class="sans note">text / binary</text>
+  </g>
+  <text x="42" y="635" class="mono note">Every shape maps to the repositories: terminal audit · Logo path · SDL2 grid and simulation</text>
+</svg>
