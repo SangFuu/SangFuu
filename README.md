@@ -45,23 +45,19 @@ I am a third-year Computer Science student building my skills through university
 
 ### [Tower Defense](https://github.com/SangFuu/tower-defense)
 
-**C · SDL2 · with SAID PAUL**  
-Enemies follow a path to the king's tower while defenses are placed automatically. Loading an incomplete save leaves the current game intact. [Controls and tests](https://github.com/SangFuu/tower-defense#play-on-windows)
+SAID PAUL and I made this in C with SDL2. The defenses are placed automatically, so you can watch a run, pause it and save it. We used two save formats. The text one is handy if you're moving a save between Windows and Linux.
 
 ### [Logo Interpreter](https://github.com/SangFuu/logo-interpreter)
 
-**OCaml · with Adnane Serrai**  
-I worked on expressions, variables, loops and error handling. The example in the panel uses a variable and a loop to draw a ten-sided shape. [Logo example](https://github.com/SangFuu/logo-interpreter/blob/main/Exo03/q4/test_1.logo)
+Adnane Serrai and I built a Logo interpreter in OCaml for a language theory class. I worked on expressions, variables, loops and error handling. We kept the earlier exercises in the repo. Start in `Exo03/q4` if you want to try the [example from the panel](https://github.com/SangFuu/logo-interpreter/blob/main/Exo03/q4/test_1.logo).
 
 ### [Local Security Checker](https://github.com/SangFuu/open-source-security-checker)
 
-**Python · personal project**  
-A local CLI that flags common password choices and checks basic HTML form settings. The panel shows one finding from a run with the sample password `azerty`. [Usage](https://github.com/SangFuu/open-source-security-checker#usage)
+I made this small Python tool to check passwords and HTML forms locally. The example above uses `azerty` as a sample password. The checker flags it as a common choice.
 
 ### [Real Estate Database](https://github.com/SangFuu/real-estate-database)
 
-**SQL · HSQLDB · LibreOffice Base · with Adnane Serrai**  
-Each lease links a property and a tenant. The repository includes the schema, SQL queries and a LibreOffice Base file with forms and fictional data. [SQL schema](https://github.com/SangFuu/real-estate-database/blob/main/schema.sql#L6-L7)
+Adnane Serrai and I designed a database for a fictional real estate agency. I worked on the table relationships, SQL queries and forms. You can open `agence-immobiliere.odb` in LibreOffice Base to see the forms.
 
 ## Tools
 
