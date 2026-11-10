@@ -51,4 +51,7 @@ Projet en **OCaml** consacré aux arbres binaires de recherche, à leur reconstr
 <img width="100%" src="https://streak-stats.demolab.com/?user=SangFuu&theme=dark&hide_border=true&background=0f172a&stroke=FFA500&ring=FFA500&fire=ff6b6b&currStreakLabel=34d399&sideLabels=94a3b8&dates=94a3b8" alt="Contributions et séries de jours sur GitHub" />
 
 
+<img width="49%" src="./assets/github-stats.svg" alt="Mon activité GitHub" />
+<img width="49%" src="./assets/top-langs.svg" alt="Langages de mes dépôts" />
+
 </div>
