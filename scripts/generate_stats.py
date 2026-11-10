@@ -62,7 +62,7 @@ for i, (label, value) in enumerate(rows):
     y = 75 + i * 29
     content += text(24,y,label) + text(395,y,f"{value:,}","#ffffff",16,"bold")
 year = datetime.now(timezone.utc).year
-content += text(24,232,f"Contributions {year} · étoiles : total public",size=11)
+content += text(24,232,"12 derniers mois · étoiles : total public",size=11)
 out = Path("assets")
 out.mkdir(exist_ok=True)
 (out / "github-stats.svg").write_text(card("Mon activité GitHub",content),encoding="utf-8")
