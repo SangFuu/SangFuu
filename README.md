@@ -47,7 +47,7 @@ I am a third-year Computer Science student building my skills through university
 [**Logo Interpreter**](https://github.com/SangFuu/logo-interpreter) · OCaml lexer, parser, AST, environment and terminal turtle  
 [**Tower Defense**](https://github.com/SangFuu/tower-defense) · C/SDL2 simulation with pathfinding, combat, saves and tests
 
-<sub>The map follows the repositories' real code paths. Human-drawn figure by Pablo Stanley / Open Doodles (CC0). [Sources and licence notes](./assets/PROJECT-SYSTEMS-SOURCES.md).</sub>
+<sub>Every element follows the repositories' real code paths; no stock or generated illustration. [Visual sources and technical notes](./assets/PROJECT-SYSTEMS-SOURCES.md).</sub>
 
 ## Tools
 
