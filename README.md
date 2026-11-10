@@ -41,7 +41,7 @@ I am a third-year Computer Science student building my skills through university
 
 ## Selected Work
 
-<img src="./assets/project-field-notes.svg" alt="Field notes assembled from four real project artefacts: Tower Defense, Logo Interpreter, Security Checker and Real Estate Database" width="100%" />
+<img src="./assets/project-field-notes-v2.svg" alt="Field notes assembled from four real project artefacts: Tower Defense, Logo Interpreter, Security Checker and Real Estate Database" width="100%" />
 
 [**Tower Defense**](https://github.com/SangFuu/tower-defense) — C/SDL2 simulation, game state and saves  
 [**Logo Interpreter**](https://github.com/SangFuu/logo-interpreter) — OCaml lexer, parser, evaluator and terminal turtle  
