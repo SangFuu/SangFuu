@@ -41,43 +41,31 @@ I am a third-year Computer Science student building my skills through university
 
 ## Selected Work
 
-<p align="center">
-  <a href="https://github.com/SangFuu/tower-defense">
-    <img src="https://raw.githubusercontent.com/SangFuu/tower-defense/main/docs/apercu.png" width="820" alt="Tower Defense running with SDL2" />
-  </a>
-  <br />
-  <sub>Tower Defense running in SDL2 — board, path, units and combat visible in the actual build.</sub>
-</p>
+<img src="./assets/selected-projects.svg" alt="Four project plates representing Tower Defense, the Logo interpreter, the local security checker and the real-estate database" width="100%" />
 
 ### [Tower Defense](https://github.com/SangFuu/tower-defense)
 
-**C · SDL2 · with SAID PAUL**  
+**C · SDL2 · Pair project with SAID PAUL**
+
 Board and enemy-path simulation, unit movement and combat, save formats, keyboard controls and automated tests.
-
-> `P / Space` pause · `S / C` binary save/load · `D / V` text save/load
-
----
 
 ### [Logo Interpreter](https://github.com/SangFuu/logo-interpreter)
 
-**OCaml · with Adnane Serrai**  
-Lexer, parser and abstract syntax tree for a subset of Logo, followed by variables, conditions, loops and terminal turtle commands.
+**OCaml · Pair project with Adnane Serrai**
 
-`source.logo` → `lexer` → `parser` → `AST` → `evaluator` → `terminal turtle`
+Lexer, parser and abstract syntax tree for a subset of Logo, followed by evaluation of variables, conditions, loops and turtle commands in the terminal.
 
 ### [Local Security Checker](https://github.com/SangFuu/open-source-security-checker)
 
-**Python · personal project**  
-Local command-line checks for password rules and common HTML form issues, supported by unit tests.
+**Python · Personal project**
 
-`python -m src.security_checker form examples/login.html`
+Local command-line checks for password rules and common HTML form issues, supported by unit tests.
 
 ### [Real Estate Database](https://github.com/SangFuu/real-estate-database)
 
-**SQL · HSQLDB · LibreOffice Base · with Adnane Serrai**  
-Relational schema, table relationships, queries, integrity checks and data-entry forms using fictional data.
+**SQL · HSQLDB · LibreOffice Base · Pair project with Adnane Serrai**
 
-`schema.sql` · `requetes.sql` · `agence-immobiliere.odb`
+Relational schema, table relationships, queries, integrity checks and data-entry forms for a fictional real-estate agency.
 
 ## Tools
 
