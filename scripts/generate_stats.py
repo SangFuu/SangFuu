@@ -55,17 +55,17 @@ rows = [
  ("Commits", c["totalCommitContributions"]),
  ("Pull requests", c["totalPullRequestContributions"]),
  ("Issues", c["totalIssueContributions"]),
- ("Dépôts contribués", c["totalRepositoryContributions"]),
- ("Étoiles des dépôts publics", stars)]
+ ("Repositories contributed to", c["totalRepositoryContributions"]),
+ ("Public repository stars", stars)]
 content = ""
 for i, (label, value) in enumerate(rows):
     y = 75 + i * 29
     content += text(24,y,label) + text(395,y,f"{value:,}","#ffffff",16,"bold")
 year = datetime.now(timezone.utc).year
-content += text(24,232,"12 derniers mois · étoiles : total public",size=11)
+content += text(24,232,"Last 12 months · stars: public total",size=11)
 out = Path("assets")
 out.mkdir(exist_ok=True)
-(out / "github-stats.svg").write_text(card("Mon activité GitHub",content),encoding="utf-8")
+(out / "github-stats.svg").write_text(card("My GitHub Activity",content),encoding="utf-8")
 content = ""
 total = sum(languages.values())
 for i, (name, amount) in enumerate(languages.most_common(5)):
@@ -76,6 +76,6 @@ for i, (name, amount) in enumerate(languages.most_common(5)):
     content += f'<rect x="190" y="{y-10}" width="210" height="9" rx="4" fill="#1e293b"/><rect x="190" y="{y-10}" width="{210*pct/100:.1f}" height="9" rx="4" fill="{color}"/>'
     content += text(415,y,f"{pct:.1f}%",size=12)
 if not total:
-    content += text(24,100,"Aucun langage disponible pour le moment.")
-content += text(24,232,"Part du code · dépôts publics hors forks",size=11)
-(out / "top-langs.svg").write_text(card("Langages de mes dépôts",content),encoding="utf-8")
+    content += text(24,100,"No language data available yet.")
+content += text(24,232,"Share of code · public repositories excluding forks",size=11)
+(out / "top-langs.svg").write_text(card("Repository Languages",content),encoding="utf-8")
