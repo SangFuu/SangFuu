@@ -41,31 +41,27 @@ I am a third-year Computer Science student building my skills through university
 
 ## Selected Work
 
-<img src="./assets/selected-projects.svg" alt="Four project plates representing Tower Defense, the Logo interpreter, the local security checker and the real-estate database" width="100%" />
+<img src="./assets/selected-projects.svg" alt="Tower Defense in SDL2, a ten-sided Logo example, a Python password check, and the SQL links between leases, properties and tenants" width="100%" />
 
 ### [Tower Defense](https://github.com/SangFuu/tower-defense)
 
-**C · SDL2 · Pair project with SAID PAUL**
-
-Board and enemy-path simulation, unit movement and combat, save formats, keyboard controls and automated tests.
+**C · SDL2 · with SAID PAUL**  
+Enemies follow a path to the king's tower while defenses are placed automatically. Loading an incomplete save leaves the current game intact. [Controls and tests](https://github.com/SangFuu/tower-defense#play-on-windows)
 
 ### [Logo Interpreter](https://github.com/SangFuu/logo-interpreter)
 
-**OCaml · Pair project with Adnane Serrai**
-
-Lexer, parser and abstract syntax tree for a subset of Logo, followed by evaluation of variables, conditions, loops and turtle commands in the terminal.
+**OCaml · with Adnane Serrai**  
+I worked on expressions, variables, loops and error handling. The example in the panel uses a variable and a loop to draw a ten-sided shape. [Logo example](https://github.com/SangFuu/logo-interpreter/blob/main/Exo03/q4/test_1.logo)
 
 ### [Local Security Checker](https://github.com/SangFuu/open-source-security-checker)
 
-**Python · Personal project**
-
-Local command-line checks for password rules and common HTML form issues, supported by unit tests.
+**Python · personal project**  
+A local CLI that flags common password choices and checks basic HTML form settings. The panel shows one finding from a run with the sample password `azerty`. [Usage](https://github.com/SangFuu/open-source-security-checker#usage)
 
 ### [Real Estate Database](https://github.com/SangFuu/real-estate-database)
 
-**SQL · HSQLDB · LibreOffice Base · Pair project with Adnane Serrai**
-
-Relational schema, table relationships, queries, integrity checks and data-entry forms for a fictional real-estate agency.
+**SQL · HSQLDB · LibreOffice Base · with Adnane Serrai**  
+Each lease links a property and a tenant. The repository includes the schema, SQL queries and a LibreOffice Base file with forms and fictional data. [SQL schema](https://github.com/SangFuu/real-estate-database/blob/main/schema.sql#L6-L7)
 
 ## Tools
 
