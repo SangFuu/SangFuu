@@ -49,15 +49,15 @@ SAID PAUL and I made this in C with SDL2. The defenses are placed automatically,
 
 ### [Logo Interpreter](https://github.com/SangFuu/logo-interpreter)
 
-Adnane Serrai and I built a Logo interpreter in OCaml for a language theory class. I worked on expressions, variables, loops and error handling. We kept the earlier exercises in the repo. Start in `Exo03/q4` if you want to try the [example from the panel](https://github.com/SangFuu/logo-interpreter/blob/main/Exo03/q4/test_1.logo).
+Adnane Serrai and I built a Logo interpreter in OCaml for a language theory class. I worked on expressions, variables, loops and error handling. The final version is in `src/`, the exercise steps in `history/`, and there are [example programs](https://github.com/SangFuu/logo-interpreter/tree/main/examples) with screenshots.
 
 ### [Local Security Checker](https://github.com/SangFuu/open-source-security-checker)
 
-I made this small Python tool to check passwords and HTML forms locally. The example above uses `azerty` as a sample password. The checker flags it as a common choice.
+A Python command-line tool that checks passwords (entropy, common passwords, optional Have I Been Pwned lookup) and HTML login forms (password sent with GET, HTTP action, missing CSRF token). The example above uses `azerty`, which it flags as a common password.
 
 ### [Real Estate Database](https://github.com/SangFuu/real-estate-database)
 
-Adnane Serrai and I designed a database for a fictional real estate agency. I worked on the table relationships, SQL queries and forms. You can open `agence-immobiliere.odb` in LibreOffice Base to see the forms.
+Adnane Serrai and I designed a database for a fictional real estate agency. I worked on the table relationships, SQL queries and forms. The schema is also available in standard SQL with constraints and an entity-relationship diagram, so it runs on SQLite or PostgreSQL without LibreOffice.
 
 ## Tools
 
