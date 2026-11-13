@@ -38,17 +38,19 @@ while True:
         for edge in repo["languages"]["edges"]:
             name = edge["node"]["name"]
             languages[name] += edge["size"]
-            colors[name] = edge["node"]["color"] or "#FF4FA3"
+            colors[name] = edge["node"]["color"] or "#C9A24A"
     page = user["repositories"]["pageInfo"]
     if not page["hasNextPage"]:
         break
     cursor = page["endCursor"]
 
-def text(x, y, value, color="#94a3b8", size=14, weight="normal"):
+PALETTE = ["#C9A24A", "#9A7BB0", "#8A6D2F", "#6B4A7A", "#D9BF7A"]
+
+def text(x, y, value, color="#b8a6c4", size=14, weight="normal"):
     return f'<text x="{x}" y="{y}" fill="{color}" font-size="{size}" font-weight="{weight}">{escape(str(value))}</text>'
 
 def card(title, content):
-    return '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250" viewBox="0 0 500 250" role="img" aria-label="' + escape(title, quote=True) + '"><rect x="1" y="1" width="498" height="248" rx="14" fill="#140d16" stroke="#6b2a52"/><g font-family="Segoe UI,Arial,sans-serif">' + text(24,36,title,"#FF4FA3",20,"bold") + content + '</g></svg>'
+    return '<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250" viewBox="0 0 500 250" role="img" aria-label="' + escape(title, quote=True) + '"><rect x="1" y="1" width="498" height="248" rx="14" fill="#1a1420" stroke="#3a2c44"/><g font-family="Segoe UI,Arial,sans-serif">' + text(24,36,title,"#C9A24A",20,"bold") + content + '</g></svg>'
 
 c = user["contributionsCollection"]
 rows = [
@@ -60,7 +62,7 @@ rows = [
 content = ""
 for i, (label, value) in enumerate(rows):
     y = 75 + i * 29
-    content += text(24,y,label) + text(395,y,f"{value:,}","#ffffff",16,"bold")
+    content += text(24,y,label) + text(395,y,f"{value:,}","#f5e9c8",16,"bold")
 year = datetime.now(timezone.utc).year
 content += text(24,232,"Last 12 months · stars: public total",size=11)
 out = Path("assets")
@@ -71,9 +73,9 @@ total = sum(languages.values())
 for i, (name, amount) in enumerate(languages.most_common(5)):
     y = 75 + i * 29
     pct = amount / total * 100
-    color = colors[name]
-    content += text(24,y,name,"#ffffff")
-    content += f'<rect x="190" y="{y-10}" width="210" height="9" rx="4" fill="#2a1824"/><rect x="190" y="{y-10}" width="{210*pct/100:.1f}" height="9" rx="4" fill="{color}"/>'
+    color = PALETTE[i % len(PALETTE)]
+    content += text(24,y,name,"#f5e9c8")
+    content += f'<rect x="190" y="{y-10}" width="210" height="9" rx="4" fill="#2c2236"/><rect x="190" y="{y-10}" width="{210*pct/100:.1f}" height="9" rx="4" fill="{color}"/>'
     content += text(415,y,f"{pct:.1f}%",size=12)
 if not total:
     content += text(24,100,"No language data available yet.")
