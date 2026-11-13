@@ -38,7 +38,7 @@
     <g transform="translate(144 0)"><polyline points="4,30 4,0 16,10 16,30"/></g>
   </g>
 
-  <text x="600" y="204" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#f5e9c8" opacity=".85" letter-spacing="3">COMPUTER SCIENCE STUDENT · SANGFUU</text>
+  <text x="600" y="204" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#f5e9c8" opacity=".85" letter-spacing="3">COMPUTER SCIENCE STUDENT</text>
 
   <rect x="0" y="292" width="1200" height="8" fill="#c9a24a"/>
 </svg>
