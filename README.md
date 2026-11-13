@@ -22,15 +22,18 @@
 
 ---
 
-| | |
-|---|---|
-| **Name** | Marwane EL FADILY |
-| **Username** | SangFuu |
-| **Education** | Third-year Computer Science student |
-| **Languages** | C, Java, OCaml, C#, C++, Python |
-| **Web & data** | HTML, CSS, XML, SQL, PHP |
-| **Framework** | Symfony |
-| **Interests** | Algorithms, data structures, software development |
+```text
+$ cat about.txt
+
+Name       : Marwane EL FADILY
+Username   : SangFuu
+Education  : Third-year Computer Science student
+Languages  : C, Java, OCaml, C#, C++, Python
+Web & data : HTML, CSS, XML, SQL, PHP
+Framework  : Symfony
+Interests  : Algorithms, data structures,
+             software development
+```
 
 ## About Me
 
@@ -38,7 +41,7 @@ I am a third-year Computer Science student building my skills through university
 
 ## Selected Work
 
-<img src="https://raw.githubusercontent.com/SangFuu/SangFuu/e3e5b6b054047bf60f55e782097e4c493e52d5cf/assets/selected-projects.svg" alt="Tower Defense in SDL2, a ten-sided Logo example, a Python password check, and the SQL links between leases, properties and tenants" width="100%" />
+<img src="./assets/selected-projects.svg" alt="Tower Defense in SDL2, a ten-sided Logo example, a Python password check, and the SQL links between leases, properties and tenants" width="100%" />
 
 ### [Tower Defense](https://github.com/SangFuu/tower-defense)
 
