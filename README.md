@@ -22,18 +22,7 @@
 
 ---
 
-```text
-$ cat about.txt
-
-Name       : Marwane EL FADILY
-Username   : SangFuu
-Education  : Third-year Computer Science student
-Languages  : C, Java, OCaml, C#, C++, Python
-Web & data : HTML, CSS, XML, SQL, PHP
-Framework  : Symfony
-Interests  : Algorithms, data structures,
-             software development
-```
+<img width="100%" src="./assets/about-card.svg" alt="Name: Marwane EL FADILY. Education: third-year Computer Science student. Languages: C, Java, OCaml, C#, C++, Python. Web and data: HTML, CSS, XML, SQL, PHP. Framework: Symfony. Interests: algorithms, data structures, software development." />
 
 ## About Me
 

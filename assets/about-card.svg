@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="278" viewBox="0 0 1000 278" role="img" aria-label="Name Marwane EL FADILY, third-year Computer Science student. Languages C, Java, OCaml, C#, C++, Python. Web and data HTML, CSS, XML, SQL, PHP. Framework Symfony. Interests algorithms, data structures, software development.">
+  <rect x="1" y="1" width="998" height="276" rx="14" fill="#1a1420" stroke="#3a2c44"/>
+  <rect x="1" y="14" width="6" height="250" rx="3" fill="#c9a24a"/>
+  <g font-family="Cinzel, 'Trajan Pro', Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" fill="#d9bf7a" letter-spacing="2">
+    <text x="40" y="52">NAME</text>
+    <text x="40" y="92">EDUCATION</text>
+    <text x="40" y="132">LANGUAGES</text>
+    <text x="40" y="172">WEB &amp; DATA</text>
+    <text x="40" y="212">FRAMEWORK</text>
+    <text x="40" y="252">INTERESTS</text>
+  </g>
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#f5e9c8">
+    <text x="230" y="52">Marwane EL FADILY</text>
+    <text x="230" y="92">Third-year Computer Science student</text>
+    <text x="230" y="132">C · Java · OCaml · C# · C++ · Python</text>
+    <text x="230" y="172">HTML · CSS · XML · SQL · PHP</text>
+    <text x="230" y="212">Symfony</text>
+    <text x="230" y="252">Algorithms, data structures, software development</text>
+  </g>
+  <g stroke="#3a2c44" stroke-dasharray="4 5">
+    <line x1="40" y1="69" x2="960" y2="69"/>
+    <line x1="40" y1="109" x2="960" y2="109"/>
+    <line x1="40" y1="149" x2="960" y2="149"/>
+    <line x1="40" y1="189" x2="960" y2="189"/>
+    <line x1="40" y1="229" x2="960" y2="229"/>
+  </g>
+  <g transform="translate(930 46)">
+    <circle r="16" fill="#c9a24a" opacity=".9"/>
+    <circle cx="7" cy="-5" r="14" fill="#1a1420"/>
+  </g>
+</svg>
