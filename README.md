@@ -2,13 +2,12 @@
 
 <img width="100%" src="./assets/banner.svg" alt="Marwane EL FADILY · SangFuu" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=19&duration=3000&pause=1500&color=C9A24A&center=true&vCenter=true&width=700&height=65&lines=C+%7C+C%2B%2B+%7C+C%23+%7C+Java+%7C+OCaml+%7C+Python;HTML+%7C+CSS+%7C+XML+%7C+SQL+%7C+PHP;Symfony+%7C+Algorithms+and+Data+Structures;Learn%2C+Understand%2C+Build" alt="C, C++, C#, Java, OCaml, Python, HTML, CSS, XML, SQL, PHP and Symfony" />
+<img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=19&duration=3000&pause=1500&color=C9A24A&center=true&vCenter=true&width=700&height=65&lines=C+%7C+C%23+%7C+Java+%7C+OCaml+%7C+Python;HTML+%7C+CSS+%7C+XML+%7C+SQL+%7C+PHP;Symfony+%7C+Algorithms+and+Data+Structures;Learn%2C+Understand%2C+Build" alt="C, C#, Java, OCaml, Python, HTML, CSS, XML, SQL, PHP and Symfony" />
 
 ![C](https://img.shields.io/badge/C-4A3550?style=for-the-badge&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-6B4A7A?style=for-the-badge&logo=python&logoColor=white)
 ![OCaml](https://img.shields.io/badge/OCaml-8A6D2F?style=for-the-badge&logo=ocaml&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-5B4466?style=for-the-badge)
-![C++](https://img.shields.io/badge/C%2B%2B-7A5A2A?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-3A2C44?style=for-the-badge)
 
 ![HTML](https://img.shields.io/badge/HTML-4A3550?style=for-the-badge&logo=html5&logoColor=white)
@@ -22,7 +21,7 @@
 
 ---
 
-<img width="100%" src="./assets/about-card.svg" alt="Name: Marwane EL FADILY. Education: third-year Computer Science student. Languages: C, Java, OCaml, C#, C++, Python. Web and data: HTML, CSS, XML, SQL, PHP. Framework: Symfony. Interests: algorithms, data structures, software development." />
+<img width="100%" src="./assets/about-card.svg" alt="Name: Marwane EL FADILY. Education: third-year Computer Science student. Languages: C, Java, OCaml, C#, Python. Web and data: HTML, CSS, XML, SQL, PHP. Framework: Symfony. Interests: algorithms, data structures, software development." />
 
 ## About Me
 
